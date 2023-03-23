@@ -48,6 +48,9 @@ p {
     text-align: center;
 }
 
-a {
+h1 {
+    margin-top: 20px;
+    text-align: center;
+    color: darkgoldenrod;
 }
 
