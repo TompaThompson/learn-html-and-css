@@ -8,3 +8,20 @@ Don't know how to make an image round? Google it!
 Also, consider how you should select the image 
 (class vs id vs element selector).
 */
+
+body {
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+    background-color: #a2d2ff;
+    color: #fff;
+}
+
+#photo {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #efb0c9;
+}
+
+h1, h2, h3, h4, p {
+    text-shadow: 0 0 1px #000;
+}

@@ -16,8 +16,18 @@ h1, h2, h3, h4, p {
     margin-bottom: 10px;
 }
 
-h2, h4 {
+#btd-age {
     background: #EFB0C9;
+    margin: 4px 0 12px 0;
+    padding: 4px 12px;
+    border-radius: 4px;
+}
+
+#btd-date {
+    background: #EFB0C9;
+    margin-top: 0px;
+    padding: 4px 12px;
+    border-radius: 4px;
 }
 
 #header {
