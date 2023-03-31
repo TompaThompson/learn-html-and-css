@@ -1,30 +1,62 @@
 <!DOCTYPE html>
 <html>
-    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
         <link rel="stylesheet" href="styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;700&display=swap" rel="stylesheet">
     </head>
     <body>
-        
-        <!-- HERO SECTION -->
-        <div>
-            <h1>Visit Torshov</h1>
-            <h2>Enjoy culture and sports in this vibrant district close to the center of Oslo.</h2>
-        </div>
-        
-        <!-- ACTIVITIES SECTION -->
-        <div>
-            <h3>Top three activities to do at Torshov</h3>
-            <img src="images/park.jpg">
-            <img src="images/theatre.jpg">
-            <img src="images/sports.jpg">
-        </div>
+        <!-- CONTENT CONTAINER -->
+        <div id="container">
 
-        <!-- GUIDE SECTION -->
-        <div>
-            <h3>Your guide</h3>
-            <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
-            <h4>Per Harald Borgen</h4>
-            <img src="images/per.jpg">
+            <!-- HERO SECTION -->
+            <div id="hometown-hero">
+                <h1>Visit Torshov</h1>
+                <h2 >Enjoy culture and sports in this vibrant district close to the center of Oslo.</h2>
+            </div>
+            <!-- END HERO SECTION -->
+
+            <!-- ACTIVITIES SECTION -->
+            <div id="hometown-activities">
+                <h3>Top three activities to do at Torshov</h3>
+                <div id="ht-act">
+                    <div class="ht-act-col">
+                        <img src="images/theatre.jpg">
+                        <h4>Attend a show or concert</h4>
+                        <p>The Torshov Theatre is a great place to
+                            spend your night out.</p>
+                    </div>
+
+                    <div class="ht-act-col">
+                        <img src="images/park.jpg">
+                        <h4>Go for a picnic in the park</h4>
+                        <p>The Torshov park is perfect for a picnic,
+                            getting a tan or just hanging out.</p>
+                    </div>
+                    
+                    <div class="ht-act-col">
+                        <img src="images/sports.jpg">
+                        <h4>Get sweaty at the sports field</h4>
+                        <p>Play volleyboll, footbool or basket. 
+                            Or lift some weights.</p>
+                    </div>
+                </div>
+                
+                
+            </div> <!-- END ACTIVITIES SECTION -->
+
+            <!-- GUIDE SECTION -->
+            <div id="hometown-guidecard">    
+                <div><img src="images/per.jpg"></div>
+                
+                <div id="ht-gc-text">
+                    <h3>Your guide</h3>
+                    <p>"I have lived at Torshov for over 30 years, so I can show you all of its best parts and hidden secrets."</p>
+                    <h4>Per Harald Borgen</h4>
+                </div>  
+            </div>
         </div>
     </body>
 </html>

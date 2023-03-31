@@ -11,8 +11,122 @@ DARK BLUE: #1D3557
 body {
     margin: 0;
     text-align: center;
+    background: burlywood;
+    font-family: 'Fira Sans', sans-serif;
+}
+#container {
+    width: 810px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: antiquewhite;
+    border: 5px solid cornsilk;
+    border-radius: 10px;
+}
+#hometown-hero {
+    background: url(images/torshov.jpg);
+    background-size: 800px 300px;
+    background-repeat: no-repeat;
+    width: 800px;
+    height: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#hometown-hero h1 {
+    background-color: #457B9D;
+    border-radius: 6px;
+    color: white;
+    font-size: 36px;
+    margin-bottom: 4px;
+    padding: 4px 12px;
 }
 
-img {
+#hometown-hero h2 {
+    background-color: #1D3557;
+    border-radius: 6px;
+    color: white;
+    font-size: 18px;
+    margin-top: 4px;
+    padding: 4px;
+    width: 350px;
+}
+
+#hometown-activities {
+    background-color:  #F1FAEE;
+}
+
+#ht-act {
+    display: flex;
+}
+
+#hometown-guidecard {
+    display: flex;
+    width: 300px;
+    margin: 20px auto;
+    padding: 20px;
+    justify-content: center;
+    background-color: #A8DADC;
+}
+
+#hometown-activities {
+    margin: 0 auto;
+    padding: 10px;
+}
+
+#hometown-activities h3 {
+    font-size: 24px;
+}
+
+#ht-act {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.ht-act-col {
+    width: 160px;
+}
+
+.ht-act-col img {
+    border-radius: 50%;
     width: 100px;
+}
+
+.ht-act-col h4 {
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
+
+.ht-act-col p {
+    margin-top: 0px;
+}
+
+#hometown-guidecard {
+    border-bottom: 8px solid #1D3557;
+    width: 400px;
+}
+#hometown-guidecard img {
+    width: 160px;
+}
+
+#ht-gc-text {
+    padding-left: 10px;
+}
+
+#ht-gc-text h3 {
+    font-size: 24px;
+    margin-bottom: 4px;
+}
+
+#ht-gc-text h4 {
+    font-size: 20px;
+    margin-top: 16px;
+}
+
+#ht-gc-text p {
+    font-size: 16px;
+    margin-bottom: 4px;
+    margin-top: 8px;
 }
